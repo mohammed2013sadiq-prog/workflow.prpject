@@ -23,7 +23,7 @@ const App: React.FC = () => {
         <CategoryFilter />
         <div className="grid grid-cols-1 md:grid-cols-2 gap-4">
           {challenges.map((c, i) => <ChallengeCard key={i} {...c} />)}
-          <ChallengeCard title="Défi bonus" subtitle="Relève un défi surprise" progress={0} goal={1} points={0} icon={<Gift />} />
+          <ChallengeCard title="Défi bonus" subtitle="Relève un défi surprise" progress={0} goal={1} points={0} icon={<Gift/>} />
         </div>
         <CompletionMessage message="Félicitations ! Tu as terminé tes défis du jour !" />
         <div>

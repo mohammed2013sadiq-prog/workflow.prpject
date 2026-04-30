@@ -11,7 +11,7 @@ const HistoryItem: React.FC<HistoryItemProps> = ({ title, date, completed }) => 
     <div className="flex justify-between items-center p-2 bg-white rounded-lg shadow mb-2">
       <div>
         <p className="font-semibold">{title}</p>
-        <p className="text-xs text-gray-500">{date}</p>
+        <p className="text-xs text-gray-600">{date}</p>
       </div>
       <div>{completed ? '✅' : '❌'}</div>
     </div>
